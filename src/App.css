@@ -1,0 +1,96 @@
+.dashboard-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  height: 80px; /* Adjust as needed */
+  background-color: #4290df;
+}
+
+/* Logo Section */
+#logo-div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Search Box Section */
+#search-box {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.search-form {
+  width: 100%;
+  max-width: 350px;
+}
+
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding: 9px 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: aliceblue;
+}
+
+.search-button {
+  position: absolute;
+  right: 5px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: -2px;
+}
+
+/* Navigation Links */
+#nav-div {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#nav-div a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  padding: 8px 12px;
+  transition: 0.3s;
+}
+
+#nav-div a:hover {
+  color: #e7eaf0;
+}
+
+#nav-div a.active {
+  text-decoration: underline;
+  color: #e7eaf0;
+}
+
+/* Authentication Buttons */
+.auth-buttons {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+}
+
+.custom-user-button .clerk-user-button img {
+  border-radius: 100%; /* Increases the radius to make it circular */
+  width: 100px; /* Adjust the size */
+  height: 100px; /* Adjust the size */
+  object-fit: cover; /* Ensures the image fits well */
+}

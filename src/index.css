@@ -1,0 +1,18 @@
+@import "tailwindcss";
+:root {
+    background-color: darkgray;
+}
+
+button{
+    color: azure;
+    background-color: black;
+    padding: 5px 17px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor :pointer;
+}
+

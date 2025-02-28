@@ -34,7 +34,7 @@ export const Dashboard = () => {
         <NavLink to='/connect'>Connect</NavLink>
         <NavLink to='/community'>Community</NavLink>
         <NavLink to='/companies'>Companies</NavLink>
-        <NavLink to='/about'>About</NavLink>
+        <NavLink to='/profile'>Profile</NavLink>
       </div>
 
       {/* Authentication Buttons */}
